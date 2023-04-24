@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Book Store</title>
+</head>
+<body>
+	<header>
+		<div>
+		  <a href="#home"><img src="img/logo.png" alt="logo"></a>
+		  <a href="#" id="hamburgerBtn">
+			<img src="img/hamburger.png" alt="hamburger">
+		  </a>
+		</div>
+		<nav id="navBar">
+		  <a href="">Shop Now!</a>
+		  <a href="">Today's Special</a>
+		  <a href="">Categories</a>
+		  <a href="">Selling Books</a>
+		  <a href="">About Us</a>
+		  <a href="">Contact</a>
+		</nav>
+	  </header>
+	<div class="padding">
+		  <section class="heading1">
+			<h1>This is heading one.</h1>
+			  <p>Lorem ipsum sit <em>This is emphasized text.</em>amet consectetur adipiscing elit Ut et <strong>This is strong text.</strong> massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante ferment.</p>
+		  </section>
+		 <div class="table">
+			<table>
+				<tr>
+					<th colspan="2">Table</th>
+				</tr>
+				<tr>
+					<td>Sunday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Tuesday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Thursday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Friday</td>
+					<td>7am - 7pm</td>
+				</tr>
+				<tr>
+					<td>Saturday</td>
+					<td>7am - 7pm</td>
+				</tr>
+			  </table>
+		 </div>
+		 <section class="heading2">
+			<h2>This is heading 2 and is followed by heading 3 as follows:</h2>
+			<ol>
+				<li>
+					<h3>This is heading 3</h3>
+				</li>
+				<p>drerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non susci</p>
+				<li>
+					<h3>This is heading 3</h3>
+				</li>
+				<p>drerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non susci</p>
+				<li>
+					<h3>This is heading 3</h3>
+				</li>
+				<p>drerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non susci</p>
+	
+			</ol>
+		 </section>
+		 <form action="">
+			<h1> Second Hand Book Price Calculator</h1>
+			<label for="original-price">Original Price: </label>
+			<input type="number" name="original-price" id="original-price" required>
+			<br>
+	
+			<label for="book-condition">Book Condition: </label>
+			<select name="book-condition" id="book-condition" required>
+				<option value="excellent">Excellent</option>
+				<option value="good">Good</option>
+				<option value="fair">Fair</option>
+				<option value="poor">Poor</option>
+			</select>
+			<br>
+	
+			<label for="price-now">Current Price: </label>
+			<input type="number" name="price-now" id="price-now" required>
+			<br>
+			<button type="button" onclick="calculatePrice()">Calculate Price</button>
+		 </form>
+
+
+		 <footer>
+			All Rights Reserved @2023 Amrit Sharma.
+		 </footer>
+	</div>  
+	<script src="script.js"></script>
+</body>
+</html>
