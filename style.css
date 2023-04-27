@@ -1,0 +1,92 @@
+ 
+body{
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+h3{
+    color: orange;
+}
+h4{
+    color: blue;
+}
+h5,strong,em{
+    color: purple;
+}
+.padding{
+    padding: 0 2%;/*2% of the pixel size of screen*/
+}
+header{
+    /*sticky header*/
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header div{
+    padding-left: 2%; /*2% of the pixel size of screen*/
+    background-color:#E8E8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#navBar{
+    display: none;
+    width: 100%; /*100% of the pixel size of screen*/
+    background-color:#F8F8F8;
+    align-items: center;
+    flex-direction: column;
+}
+#navBar a{
+    font-weight: bold;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.heading1{
+    text-align: right;
+}
+.heading1{
+    text-align: justify;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0; /*5% of the pixel size of screen*/
+    background-color:#E8E8E8;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9E9E9;
+}
+
+
+@media screen and (min-width: 768px) {
+    #hamburgerBtn{
+        display: none;
+    }
+    header{
+        display: flex;
+    }
+    #navBar{
+        position: relative;
+        background-color:#E8E8E8;
+        display: flex !important;
+        padding-left: 5%; /*5% of the pixel size of screen*/
+        flex-direction: row;
+        flex-basis: 100%;
+    }
+    #navBar a{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
